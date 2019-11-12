@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0 auto;
+
+}
+
+.content {
+    max-width: 90%;
+    flex: auto;
+    margin: 0 auto;
+}
+body {
+	font-size: 1.1em;
+	font-family: Helvetica, sans-serif;
+	background: url(images/stripe.png) repeat;
+	text-align: center;
+	padding-top: 30px;
+}
+.header {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    display: flexs;
+}
+
+.header ul {
+    list-style: none; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+}
+
+header ul li {
+    display: inline;
+    border: 1px solid blue;
+}
+
+.main-article {
+    min-width: 70%;
+    background-origin: padding-box;
+    border: 1px solid blue;
+}
